@@ -1,4 +1,3 @@
-#define _CRT_SECURE_NO_WARNINGS 
 #include "loadImageBMP.h"
 #include "loadImageJPEG.h"
 #include "loadImagePNG.h"
