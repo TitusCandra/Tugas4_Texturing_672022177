@@ -118,7 +118,7 @@ void timer(int) {
     rotationAngle += 1.0f;
     if (rotationAngle >= 360.0f) rotationAngle -= 360.0f;
     glutPostRedisplay();
-    glutTimerFunc(16, timer, 0); // 60 FPS
+    glutTimerFunc(16, timer, 0);
 }
 
 int main(int argc, char** argv) {
@@ -126,7 +126,7 @@ int main(int argc, char** argv) {
     glutInitDisplayMode(GLUT_DOUBLE | GLUT_RGB | GLUT_DEPTH);
     glutInitWindowSize(500, 500);
     glutInitWindowPosition(0, 0);
-    glutCreateWindow("Texturing Cube Rotation");
+    glutCreateWindow("Tugas4_Texturing_672022177");
     glutDisplayFunc(display);
 
     myinit();
